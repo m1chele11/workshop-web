@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: black;
+}
+
+.rectangle {
+    padding: 20px;
+    width: calc(100% - 45px); /* Full width minus padding */
+    margin-top: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.light-blue {
+    background-color: #ADD8E6; /* Light ocean blue color */
+}
+
+.light-pink {
+    background-color: #FFB6C1; /* Light pink color */
+}
+
+.light-green {
+    background-color: #90EE90; /* Light green color */
+}
+
+.rectangle h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.light-blue:hover {
+    background-color: #87CEFA; /* Slightly darker blue on hover */
+}
+
+.light-pink:hover {
+    background-color: #FF69B4; /* Slightly darker pink on hover */
+}
+
+.light-green:hover {
+    background-color: #32CD32; /* Slightly darker green on hover */
+}
+
+.image-container {
+    width: 100%; /* Full width */
+    max-width: 600px; /* Maximum width of the container */
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra space below the image */
+    border-radius: 10px;
+}
+
+
+
+
